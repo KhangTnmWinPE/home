@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="windows-icon" href="images/windows.ico">
+</head>
+<body>
+     <header>
+        <a href="index.html" class="header_title"><img src="images/windows.ico" class="header_logo"/></a>
+        <a href="index.html" class="header_title">KhangTnm's WinPE Project</a>
+    </header>
+
+    <div>
+        <h1>KhangTnm's WinPE Installation Guide</h1>
+    </div>
+
+    <div>
+        <h3>Before you begin</h3>
+        <p>KhangTnm's WinPE takes up 1,5Gb of disk space. To install KhangTnm's WinPE on a USB Drive, you need to have:</p>
+            <ul>
+                <li>>2GB USB Flash Drive (8GB is recommended)</li>
+                <li>A PC that's running Windows or Linux</li>
+            </ul>
+        <p>You can use a USB 2.0 Drive, but a USB 3.0 Drive is highly recommended.</p>
+    </div>
+
+    <div>
+        <h3>Download KhangTnm's WinPE ISO and USB media creation tool</h3>
+        <p>First, go to <a href="index.html" target="blank">KhangTnm's WinPE homepage</a> to download the iso file.</p>
+        <p>Next, you need to create a bootable USB Drive by using Ventoy. 
+            You can use other USB media creation tools, but we highly recommend you using Ventoy. 
+            Download Ventoy from <a href="https://ventoy.net" target="blank">ventoy.net</a>.</p>
+        <p>Plug in your USB Drive.</p>
+    </div>
+
+    <div>
+        <h3>Create bootable KhangTnm's WinPE USB Drive</h3>
+        <p>After downloading Ventoy, you have to extract the zip file. 
+            Then, go into the directory and double-click to the Ventoy2Disk.exe if you're using Windows or VentoyGUI.x86_64 if you're in Linux.</p>
+        <img src="images/linux_capture_2.webp" class="capture">
+        <p>The Ventoy will pop up suddenly. In the 'Device' section, click the dropdown box and select your USB Drive from the list. 
+            Please select the CORRECT USB Drive, because all your data inside the USB Drive WILL BE DELETED.
+        </p>
+        <p>Before clicking 'Install', make sure your USB Drive is EMPTY. All your data on USB Drive WILL BE DELETED.</p>
+        <p>Click 'Install' to install Ventoy onto your USB Drive. The process shouldn't take too long.</p>
+        <p>For more information about installing Ventoy, click <a href="https://www.ventoy.net/en/doc_start.html" target="blank">here</a>.</p>
+        <img src="images/linux_capture_3.webp" class="capture">
+        <p>Once it's finished, you will see the drive named 'Ventoy' in the file explorer. 
+            Copy the KhangTnm's WinPE ISO to the Ventoy drive. You can also copy other ISOs to the drive.</p>
+        <p>Congratulations, now you have a bootable KhangTnm's WinPE USB Drive.</p>
+    </div>
+
+    <div>
+        <h3>Boot into USB Drive</h3>
+        <p>Plug the USB Drive to the target PC. Press the BIOS key and turn on the PC to enter BIOS setup. 
+            You can Google it to see what key should you press. BIOS key may be different depending on your PC model.</p>
+        <p>In your BIOS settings, change the boot device to the USB Drive. Then, save the changes and restart your computer. 
+            You may need to turn off Sercue Boot in your BIOS if it doesn't boot</p>
+        <p>Once it's booted into Ventoy, use your arrow keys to navigate to the KhangTnm's WinPE iso, then press enter.</p>
+        <p>Now you can use KhangTnm's WinPE to rescue a broken Windows system, check hardware, or install Windows.</p>
+    </div>
+
+    <footer>
+        <h3>Any problems?</h3>
+        <ul>
+            <li><p>Facebook: <a href="https://www.facebook.com/facebook.khangtnm/" target="_blank">Khang Tnm</a></p></li>
+            <li><p>Email: <a href="mailto:khangtnm.winpe@gmail.com" target="_blank">khangtnm.winpe@gmail.com</a></p></li>
+        </ul>
+    </footer>
+</body>
+</html>

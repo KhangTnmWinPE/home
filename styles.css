@@ -1,0 +1,47 @@
+body {
+    background-color:gainsboro;
+}
+
+.header_logo{
+    width: 120px;
+    vertical-align: middle;
+}
+
+.header_title{
+    font-weight:bold;
+    font-size: 40px;
+    vertical-align: middle;
+    color: #0040a0;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a{
+    cursor: pointer;
+}
+
+.capture_winpe{
+    width: 100%;
+    max-width: max-content;
+}
+
+.capture{
+    width: 60%;
+    max-width: max-content;
+}
+
+.index_links{
+    color:navy;
+    text-decoration-line: none;
+}
+
+.index_links:hover{
+    color:crimson;
+}
+
+.smallNotes{
+    font-size: 90%;
+    font-style: italic;
+}
